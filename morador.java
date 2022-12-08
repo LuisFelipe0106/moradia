@@ -12,16 +12,5 @@ public class Morador extends Pessoa {
 
   // Métodos GET e SET
   public String getcontrato() {
-  return contrato;
-  }
 
-  public void setcontrato(String contrato) {
-  this.contrato = contrato;
-  }
-
-  @Override
-  public String toString (){
-  return super.toString()+
-  "\nNumero de contrato: " + this.getcontrato()
-  }
 }
